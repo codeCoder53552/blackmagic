@@ -35,9 +35,9 @@ CUSTOM OPTIONS
 
 On mac, our device shows up with a serial number /dev/tty.cuJEFF123HDC 
 
-This can be annoying if we want to auto connect with a gith script. We can override
+This can be annoying if we want to auto connect with a gith script. We can override 
 the use of a serial number by doing a custom compilation such that our device
-shows up as the following: `/dev/cu.usbmodemJEFF1`, or `/dev/cu.usbmodemJEFF3`
+shows up as `/dev/cu.usbmodemJEFF1` or `/dev/cu.usbmodemJEFF3`
 
 ```bash
  $ make PROBE_HOST=jeff CUSTOM_SER=1
